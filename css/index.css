@@ -24,10 +24,9 @@
     position: absolute;
     width: 100%;
     height: 600px;
-    background-color: #1c4c95;
-    /* background: linear-gradient(0deg, rgba(2, 28, 79, 1) 0%, rgba(2, 28, 79, 0.8) 25%, rgba(255, 255, 255, 0) 100%); */
+    background-color: rgba(28, 76, 149, 0.6);
+    /* background: linear-gradient(0deg, rgba(28, 76, 149, 0.8) 0%, rgba(28, 76, 149, 0.8) 25%, rgba(255, 255, 255, 0.7) 100%); */
     background-repeat: no-repeat;
-    opacity: 0.5;
     background-size: cover;
     background-attachment: fixed;
     z-index: 2;
@@ -36,10 +35,16 @@
 .homeh1 {
     position: relative;
     text-align: center;
-    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant-caps: petite-caps;
+    color: rgba(166, 206, 57, 1);
+    font-size: 70px;
     margin-top: 20%;
-    color: rgb(255, 255, 255);
     z-index: 5;
+}
+
+.homeh1 span {
+    color: rgba(86, 197, 208, 1);
 }
 
 .blog-slider {
@@ -354,7 +359,7 @@
 
 @media only screen and (max-width: 900px) {
     .strengthcards {
-        justify-content: center;
+        margin-left: 20%;
         display: block;
     }
 }
@@ -362,6 +367,7 @@
 .gridcard {
     height: 350px;
     width: 300px;
+    padding: 20px;
     justify-content: center;
     background-color: #ffffff;
     box-shadow: 0px 10px 30px rgba(34, 35, 58, 0.2);
