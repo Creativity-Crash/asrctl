@@ -355,7 +355,7 @@
 @media only screen and (max-width: 900px) {
     .strengthcards {
         justify-content: center;
-        display: solid;
+        display: block;
     }
 }
 
