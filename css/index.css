@@ -286,64 +286,6 @@
     width: 100%;
 }
 
-.blog-slider__pagination {
-    position: absolute;
-    z-index: 21;
-    right: 20px;
-    width: 11px !important;
-    text-align: center;
-    left: auto !important;
-    top: 50%;
-    bottom: auto !important;
-    transform: translateY(-50%);
-}
-
-@media screen and (max-width: 768px) {
-    .blog-slider__pagination {
-        transform: translateX(-50%);
-        left: 50% !important;
-        top: 205px;
-        width: 100% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-.blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 8px 0;
-}
-
-@media screen and (max-width: 768px) {
-    .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
-        margin: 0 5px;
-    }
-}
-
-.blog-slider__pagination .swiper-pagination-bullet {
-    width: 16px;
-    height: 16px;
-    display: block;
-    border-radius: 10px;
-    background: #062744;
-    opacity: 0.2;
-    transition: all 0.3s;
-}
-
-.blog-slider__pagination .swiper-pagination-bullet-active {
-    opacity: 1;
-    background: #1c4c95;
-    height: 20px;
-    box-shadow: 0px 0px 20px rgba(28, 76, 149, 0.3);
-}
-
-@media screen and (max-width: 768px) {
-    .blog-slider__pagination .swiper-pagination-bullet-active {
-        height: 11px;
-        width: 30px;
-    }
-}
-
 .heading {
     margin: 10% 0 5% 0;
     text-align: center;
@@ -397,4 +339,33 @@
 
 .gridcard h1 p {
     text-align: center;
+}
+
+.training {
+    height: 450px;
+    width: 1000px;
+    padding: 30px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(34, 35, 58, 0.2);
+}
+
+.training .image {
+    height: 300px;
+    width: 300px;
+}
+
+#Services {
+    width: 100%;
+    height: 700px;
+    font-size: 18px;
+    justify-content: center;
+}
+
+#Services.bg {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    opacity: 0.2;
+    z-index: -10;
 }
